@@ -2,8 +2,8 @@ from Motion_Detector import DF
 from bokeh.plotting import figure, show, output_file
 from bokeh.models import HoverTool, ColumnDataSource
 
-DF["Start_string"] = DF["Start Time"].dt.strftime("%Y-%m-%d %H:%M:%S")
-DF["End_string"] = DF["End Time"].dt.strftime("%Y-%m-%d %H:%M:%S")
+DF["Start_string"] = DF["Start Time"].dt.strftime("%y-%m-%d %H:%M:%S")
+DF["End_string"] = DF["End Time"].dt.strftime("%y-%m-%d %H:%M:%S")
 
 
 CDS = ColumnDataSource(DF)
