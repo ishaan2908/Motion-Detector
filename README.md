@@ -9,4 +9,4 @@ This software searches through the computer's camera for a moving object. After 
 * After closing the program, a web page opens containing the Time Graph.
 * Also, a file Time Data.csv is generated having the tabular data of the Time Graph.
 
-(Part of course on Udemy)
+(Made as a Part of an online course)
